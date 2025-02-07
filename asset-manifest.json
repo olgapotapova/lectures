@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9c7426ca.css",
+    "main.js": "./static/js/main.c25dc7c2.js",
+    "static/media/Lecture_image1.png": "./static/media/Lecture_image1.3942b005807e99d09449.png",
+    "static/media/Lecture_image3.png": "./static/media/Lecture_image3.f1abb7ec4b722eeb4795.png",
+    "static/media/Lecture_image2.png": "./static/media/Lecture_image2.423c1a6f7c2bf161500c.png",
+    "static/media/Portrait.png": "./static/media/Portrait.33af25527b72aa3d1949.png",
+    "static/media/Feedback_pattern.png": "./static/media/Feedback_pattern.5c6b79f64efc1d544f4e.png",
+    "static/media/Mobil_main_background.svg": "./static/media/Mobil_main_background.c466046581e53a03c63a7ac166bcc13e.svg",
+    "static/media/Mobile_pattern.svg": "./static/media/Mobile_pattern.e3e0f27705403f4e747bbe7b595313b5.svg",
+    "static/media/Man1.jpg": "./static/media/Man1.cdfbc1c2101d82377996.jpg",
+    "static/media/Small_background.svg": "./static/media/Small_background.8418fbf7970ba6a25fb00348f7fa5871.svg",
+    "static/media/Man2.jpg": "./static/media/Man2.0406b7f229923c49771a.jpg",
+    "static/media/Man3.jpg": "./static/media/Man3.50b355d84e8be0601df8.jpg",
+    "static/media/Art_pattern.svg": "./static/media/Art_pattern.af479afd9b95103a7b8687fa58275930.svg",
+    "static/media/Big_bird.svg": "./static/media/Big_bird.b87d8dbfc46a14bd58388d0fa34d2e5a.svg",
+    "static/media/Bird.svg": "./static/media/Bird.3dda7d05da55753cc2ddd23de76f8492.svg",
+    "index.html": "./index.html",
+    "static/media/Logo_icon.svg": "./static/media/Logo_icon.a26203cbf7dec54175b1719e6411b6a0.svg",
+    "main.9c7426ca.css.map": "./static/css/main.9c7426ca.css.map",
+    "main.c25dc7c2.js.map": "./static/js/main.c25dc7c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c7426ca.css",
+    "static/js/main.c25dc7c2.js"
+  ]
+}
