@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9c7426ca.css",
-    "main.js": "./static/js/main.c25dc7c2.js",
+    "main.css": "./static/css/main.aa627d41.css",
+    "main.js": "./static/js/main.d127d499.js",
     "static/media/Lecture_image1.png": "./static/media/Lecture_image1.3942b005807e99d09449.png",
     "static/media/Lecture_image3.png": "./static/media/Lecture_image3.f1abb7ec4b722eeb4795.png",
     "static/media/Lecture_image2.png": "./static/media/Lecture_image2.423c1a6f7c2bf161500c.png",
@@ -18,11 +18,11 @@
     "static/media/Bird.svg": "./static/media/Bird.3dda7d05da55753cc2ddd23de76f8492.svg",
     "index.html": "./index.html",
     "static/media/Logo_icon.svg": "./static/media/Logo_icon.a26203cbf7dec54175b1719e6411b6a0.svg",
-    "main.9c7426ca.css.map": "./static/css/main.9c7426ca.css.map",
-    "main.c25dc7c2.js.map": "./static/js/main.c25dc7c2.js.map"
+    "main.aa627d41.css.map": "./static/css/main.aa627d41.css.map",
+    "main.d127d499.js.map": "./static/js/main.d127d499.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c7426ca.css",
-    "static/js/main.c25dc7c2.js"
+    "static/css/main.aa627d41.css",
+    "static/js/main.d127d499.js"
   ]
 }
