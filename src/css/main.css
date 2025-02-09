@@ -1,4 +1,4 @@
-/* @import url(''); */
+/* @import url(); */
 
 *{
     margin: 0;
@@ -33,23 +33,11 @@ body{
     background-size: cover; */
     background-size: 100% 100%;
     background-position: center;
+    margin-bottom: -5px;
 } 
 main{
     margin: 0;
     
-}
-
-/* main{
-    margin: 50px, 100px;
-    width: 50%;
-    float: left;
-} */
-
-main .lecture h3{
-    color: #0B0B15;
-    padding: 40px 20px 60px;
-    font-weight: 400;
-    font-size: 28px;
 }
 
 main h2{
@@ -74,6 +62,7 @@ main h2{
     font-size: 64px;
     line-height: 32px;
     color: #FFFFFF;
+    
  }
 
  .mobile_pattern{

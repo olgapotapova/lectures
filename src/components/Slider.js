@@ -1,12 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import data from "./data";
 import { styled } from "styled-components";
+import FeedbackPattern from '../img/Feedback_pattern.png';
+import Image from "./image";
 
 const FeedbackContainer = styled.section`
     
     width: 90vw;
     margin: 5rem auto;
-    max-width: var(--max-width)
+    max-width: var(--max-width);
   
   @media screen and (min-width: 992px) {
       width: 95vw;
@@ -43,8 +45,14 @@ const PersonImg = styled.div`
     box-shadow: var(--dark-shadow);
 `;
 
-const Article = styled.article`
+const ArticleContainer = styled.article`
     position: absolute;
+    width: 100%;
+    height: 100vw;
+    background-image: url('${FeedbackPattern}');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
     top: 0;
     left: 0;
     width: 100%;
@@ -71,19 +79,24 @@ const SliderHeader = styled.h4`
     margin-bottom: 0.25rem;
 `;
 
+// const Article = styled.article`
+//     text-transform: uppercase;
+//     color: var(--clr-primary-5);
+//     margin-bottom: 0.25rem;
+// `;
+
 const SliderText = styled.p`
-    // max-width: 35em;
     margin: 0 auto;
     margin-top: 2rem;
-    line-height: 2;
-    max-width: 45em;
-    color: var(--clr-grey-5);
-    // @media (min-width: 800px) {
-    // max-width: 45em;
-    }
+    max-width: 45vw;
+    color: white;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
 `;
-
-
 
 const Slider = () => {
     const [people, setPeople] = useState(data);
@@ -106,7 +119,7 @@ const Slider = () => {
 
     return (
         <section className='section'>
-            <h2>Отзывы</h2>
+            <Header>Отзывы</Header>
             {/* <div className='title'>
                 <h2>
                     <span>/</span>reviews
@@ -126,18 +139,21 @@ const Slider = () => {
                     }
 
                     return (
-                        <article className={position} key={id}>
+                        <ArticleContainer className={position} key={id}>
 
                             <img src={face} alt={name} className='person-img' style={{  borderRadius: '50%',
-                                marginBottom: '1remm',
-                                width: '150px',
-                                height: '150px',
+                                marginTop: '124px',
+                                marginBottom: '5vw',
+                                width: '130px',
+                                height: '130px',
                                 objectFit: 'cover',
-                                boxShadow: 'var(--dark-shadow)' }}/>
-
+                                boxShadow: 'var(--dark-shadow)',
+                                border: '3px solid black',
+                                filter: 'blur(2px)' }}/>
+                            {/* <Image image={ FeedbackPattern } alt={FeedbackPattern} style={{ width: '100%' }} />  */}
                             {/* <h4>{name}</h4> */}
-                            <p className='text'>{quote}</p>
-                        </article>
+                            <SliderText className='text'>{quote}</SliderText>
+                        </ArticleContainer>
                     );
                 })}
             </SectionCenter>
