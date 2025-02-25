@@ -4,19 +4,18 @@ import { styled } from "styled-components";
 import FeedbackPattern from '../img/Feedback_pattern.png';
 import Image from "./image";
 
-const FeedbackContainer = styled.section`
-    
-    width: 90vw;
-    margin: 5rem auto;
-    max-width: var(--max-width);
-  
-  @media screen and (min-width: 992px) {
-      width: 95vw;
-    }
-`;
+// const FeedbackContainer = styled.section`    
+//     width: 90vw;
+//     margin: 5rem auto;
+//     max-width: var(--max-width);  
+//     @media screen and (min-width: 992px) {
+//       width: 95vw;
+//     }
+// `;
 
 const Header = styled.h2`
-    margin-bottom: 0.75rem;
+margin-top: 10vw;
+    margin-bottom: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,10 +24,9 @@ const Header = styled.h2`
 
 const SectionCenter  = styled.div`
     margin: 0 auto;
-    margin-top: 4rem;
-    width: 80vw;
-    height: 450px;
-    max-width: 800px;
+    width: 100vw;
+    height: 400px;
+    max-width: 1000px;
     text-align: center;
     position: relative;
     display: flex;
@@ -73,11 +71,11 @@ const ArticleContainer = styled.article`
 //     transform: translateX(100%);
 //   `;
 
-const SliderHeader = styled.h4`
-    text-transform: uppercase;
-    color: var(--clr-primary-5);
-    margin-bottom: 0.25rem;
-`;
+// const SliderHeader = styled.h4`
+//     text-transform: uppercase;
+//     color: var(--clr-primary-5);
+//     margin-bottom: 0.25rem;
+// `;
 
 // const Article = styled.article`
 //     text-transform: uppercase;
@@ -142,14 +140,13 @@ const Slider = () => {
                         <ArticleContainer className={position} key={id}>
 
                             <img src={face} alt={name} className='person-img' style={{  borderRadius: '50%',
-                                marginTop: '124px',
+                                marginTop: '90px',
                                 marginBottom: '5vw',
-                                width: '130px',
-                                height: '130px',
+                                width: '140px',
+                                height: '140px',
                                 objectFit: 'cover',
                                 boxShadow: 'var(--dark-shadow)',
-                                border: '3px solid black',
-                                filter: 'blur(2px)' }}/>
+                                border: '3px solid black' }}/>
                             {/* <Image image={ FeedbackPattern } alt={FeedbackPattern} style={{ width: '100%' }} />  */}
                             {/* <h4>{name}</h4> */}
                             <SliderText className='text'>{quote}</SliderText>

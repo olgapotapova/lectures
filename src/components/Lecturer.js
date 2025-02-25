@@ -30,9 +30,9 @@ const ImageLecturer = styled.img `
   max-width: 500px;
 ` ;
 const AboutMe = styled.p `  
-  width: 60%;
+  width: 70%;
   margin-top: 10vw;
-  margin-left: -30vw;
+  margin-left: -20vw;
   height: 45px;
   font-family: 'Montserrat Alternates';
   font-style: normal;
@@ -49,7 +49,7 @@ class Lecturer extends React.Component {
         <Header>Лектор:</Header>
         <Name>Олеся Литневски</Name>
         <ImageLecturer src={ Portrait } alt={Portrait} style={{ width: '100%' }} /> 
-        <AboutMe>Музыка всегда была частью моей жизни. Еще в детстве воспитатели заметили мою любовь к импровизированным концертам и посоветовали родителям отдать меня в музыкальную школу.</AboutMe>
+        <AboutMe>Еще в детстве воспитатели заметили мою любовь к импровизированным концертам и посоветовали родителям отдать меня в музыкальную школу.</AboutMe>
         <AboutMe>Музыка – это моя история, мой путь, который продолжается. </AboutMe>
     </LecturerContainer>;
   }

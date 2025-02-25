@@ -7,10 +7,11 @@ import Club from "./components/Club";
 import Lecturer from "./components/Lecturer";
 import Slider from "./components/Slider";
 import { styled } from "styled-components";
-import Image from "./components/image";
+// import Image from "./components/image";
 import background from './img/Mobil_main_background.svg';
 import SmallBackground from './img/Small_background.svg';
 import MobilePattern from './img/Mobile_pattern.svg';
+// import './css/main.css'
 
 const MainDiv = styled.div`
     width: 100%;

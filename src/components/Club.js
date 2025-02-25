@@ -38,12 +38,12 @@ const TextContainer = styled.div`
 `;
 
 const ClubText = styled.p`
-  width: 35%;
+  width: 38%;
   text-align: center;
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 32px;
   text-align: center;
   text-decoration-line: underline;
